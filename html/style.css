@@ -4,14 +4,14 @@ Common Stylesheet
 Project:   Theme Title
 Build:     Bootstrap 3 +
 Author:    ThemeBadge
-Author URL: http://www.themebadge.com
+Author URL: http://www.enamul.me
 
 -------------------------------------------------------------------*/
 
-/* ----------------------------------------------------------------
-	typography
------------------------------------------------------------------*/
 
+/* ----------------------------------------------------------------
+    typography
+-----------------------------------------------------------------*/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -19,15 +19,15 @@ body {
     color: #323232;
     font-size: 15px;
     font-weight: 400;
-    text-rendering:optimizeLegibility;
+    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
 }
 
-
 a:active,
-a:focus { outline: none !important; }
-
+a:focus {
+    outline: none !important;
+}
 
 h1,
 h2,
@@ -38,27 +38,30 @@ h6 {
     color: #333;
     font-weight: 600;
     line-height: 1.5;
-    margin:0;
+    margin: 0;
 }
 
 a {
     text-decoration: none !important;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #323232;
 }
 
-a:hover, .btn, .btn:hover  {
+a:hover,
+.btn,
+.btn:hover {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
-
 a img,
-iframe { border: none !important; }
-
+iframe {
+    border: none !important;
+}
 
 p {
     margin: 0;
@@ -66,7 +69,8 @@ p {
     color: #7e7e7e;
 }
 
-p, li {
+p,
+li {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -77,6 +81,15 @@ hr {
     border-top: 1px solid #eee;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
 
 pre {
     display: block;
@@ -92,43 +105,33 @@ pre {
     border-radius: 0;
 }
 
+
 /* Go Scroll To Top */
-.go-top{
+
+.go-top {
     position: fixed;
     right: 30px;
     bottom: 20px;
     z-index: 999;
     display: none;
 }
+
 .go-top span {
-  background-color: rgb(4, 40, 61);
-  color: #008ad3;
-  cursor: pointer;
-  float: right;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  padding: 5px 10px;
+    background-color: rgb(4, 40, 61);
+    color: #008ad3;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px 10px;
 }
-.go-top span:hover{
+
+.go-top span:hover {
     color: #fff;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Responsive Code */
 
-
-
-@media only screen and (max-width:1200px) {
-
-}
+@media only screen and (max-width:1200px) {}
